@@ -1,0 +1,5 @@
+theme: jekyll-theme-slate
+title: DOOM
+description: A sloecomputer project
+exclude:
+   - PDK
