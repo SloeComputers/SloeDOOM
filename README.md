@@ -1,6 +1,6 @@
 # SloeDOOM
 
-Sloe Computers port of the classic game from id SOFTWARE.
+Sloe Computers port of the classic game from **id SOFTWARE**.
 
 ## Status
 

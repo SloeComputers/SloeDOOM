@@ -6,7 +6,7 @@
 add_subdirectory(id_DOOM/linuxdoom-1.10)
 
 add_executable(doom
-               doom.cpp
+               sloe_doom.cpp
                video.cpp
                event.cpp
                sound.cpp
@@ -15,3 +15,7 @@ add_executable(doom
                )
 
 target_link_libraries(doom id_DOOM PLT)
+
+set_target_properties(doom
+                      PROPERTIES
+                      RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")

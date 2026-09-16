@@ -95,7 +95,7 @@ void I_FinishUpdate()
 
 void I_ReadScreen(uint8_t* out_)
 {
-   if (gui != nullptr) return;
+   if (gui == nullptr) return;
 
    memcpy(out_, gui->getFrameBuffer(), DoomGUI::WIDTH * DoomGUI::HEIGHT);
 }
