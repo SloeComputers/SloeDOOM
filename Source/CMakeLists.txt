@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------------
 # Copyright (c) 2026 John D. Haughton
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: GPL-2.0-only
 #-------------------------------------------------------------------------------
 
-add_subdirectory(id_DOOM)
+add_subdirectory(id_DOOM/linuxdoom-1.10)
 
 add_executable(doom
                doom.cpp
@@ -14,4 +14,4 @@ add_executable(doom
                net.cpp
                )
 
-target_link_libraries(doom doom_lib PLT)
+target_link_libraries(doom id_DOOM PLT)

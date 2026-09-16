@@ -1,12 +1,12 @@
 #-------------------------------------------------------------------------------
 # Copyright (c) 2026 John D. Haughton
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: GPL-2.0-only
 #-------------------------------------------------------------------------------
 
 cmake_minimum_required(VERSION 3.20)
 
-project(DOOM
-        LANGUAGES CXX C ASM
+project(SloeDOOM
+        LANGUAGES CXX C
         VERSION 0.0)
 
 if(NOT DEFINED BUILD_TESTING)

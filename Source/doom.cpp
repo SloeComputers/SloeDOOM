@@ -1,17 +1,17 @@
 //-------------------------------------------------------------------------------
 // Copyright (c) 2026 John D. Haughton
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL-2.0-only
 //-------------------------------------------------------------------------------
 
 #include <cstdio>
 
 #include "STB/ConsoleApp.h"
 
-#define  PROGRAM         "DOOM"
-#define  DESCRIPTION     "The classic game"
-#define  LINK            "https://github.com/sloecomputer"
-#define  AUTHOR          "John D. Haughton"
-#define  COPYRIGHT_YEAR  "2026"
+#define  PROGRAM         "SloeDOOM"
+#define  DESCRIPTION     "Sloe Computers port of the classic game from id"
+#define  LINK            "https://github.com/SloeComputers"
+#define  AUTHOR          "id SOFTWARE"
+#define  COPYRIGHT_YEAR  "1993"
 
 extern "C" void D_DoomMain();
 
@@ -21,6 +21,7 @@ public:
    DOOMApp()
       : ConsoleApp(PROGRAM, DESCRIPTION, LINK, AUTHOR, COPYRIGHT_YEAR)
    {
+      licGPL2();
    }
 
 private:

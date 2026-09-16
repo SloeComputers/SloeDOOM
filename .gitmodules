@@ -1,3 +1,6 @@
 [submodule "PDK"]
 	path = PDK
 	url = https://github.com/SloeComputers/PDK.git
+[submodule "Source/id_DOOM"]
+	path = Source/id_DOOM
+	url = git@github.com:SloeComputers/id_DOOM.git
